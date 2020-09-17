@@ -26,6 +26,7 @@ polygon = PoolVector2Array( 0, 0, 0, 640, 640, 640, 640, 0, 32, 0, 32, -64, 704,
 [node name="Player_Area" type="Node2D" parent="."]
 position = Vector2( 96, 96 )
 
+[node name="Player" type="KinematicBody2D" parent="Player_Area"]
 collision_layer = 64
 script = ExtResource( 3 )
 
